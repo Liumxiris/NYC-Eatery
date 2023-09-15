@@ -1,0 +1,53 @@
+.rest-container{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #f7b731;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    overflow:scroll;
+}
+
+#rest-info {
+    width: 90%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#rest-image {
+    margin-left: 20%;
+}
+
+#rest-comments {
+    margin-right: 20%;
+}
+
+#rest-page-img {
+    height: 350px;
+    width: 400px;
+}
+
+#submit-btn {
+    position: relative;
+    margin: 5%;
+    right: 0;
+}
+
+.ant-input {
+    width: 100%;
+}
+
+.comments-card {
+    width: 100%;
+    margin-top: 5%;
+}
+
+/* #comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */

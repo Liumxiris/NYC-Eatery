@@ -1,0 +1,49 @@
+.dash-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #f7b731;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.rest-info-container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    margin-top: 2%;
+    font-size: large;
+    font-weight: bolder;
+    flex-direction: column;
+}
+
+.rest-card-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 5%; */
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    margin:2%;
+    justify-content: space-between;
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-wrapper {
+    overflow: hidden;
+  }
+  
+img {
+    height: 200px;
+}
+
+.card {
+    margin: 30px;
+}

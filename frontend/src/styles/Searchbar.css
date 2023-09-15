@@ -1,0 +1,29 @@
+.search-bar {
+    display: flex;
+    margin-top: 10%;
+    width: 400px;
+    justify-content: center;
+}
+
+.ant-input {
+    width: 100%;
+}
+
+.anticon {
+    align-items:inherit;
+    font-size: 30px;
+    margin-right: 5%;
+}
+/* .adm-search-bar {
+   --background: black;
+   --placeholder-color: rgb(194, 190, 190);
+   --height: 45px;
+   --border-radius: 20px;
+   --adm-color-text: white;
+}
+
+.adm-search-bar-active {
+    --adm-color-primary:white;
+    --adm-color-background: black;
+    --adm-color-text: white;
+} */
